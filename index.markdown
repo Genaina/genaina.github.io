@@ -13,4 +13,3 @@ Her research interests are mostly in Software Systems Engineering including depe
 
 In 2013, she co-organized the Brazilian Software Engineering Congress (CBSoft) of the Brazilian Computer Society (SBC). Together with her research group LADECIC @ LES, she has engaged national and international cooperations in her topics of research interest and has served highly ranked Computer Science journals as well as conferences.
 
-
