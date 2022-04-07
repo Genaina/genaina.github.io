@@ -47,11 +47,11 @@
           <!-- primary nav -->
           <div class="md:flex items-center space-x-1 hidden">
             
-            <a class="hover:bg-gray-200 py-3 px-2 text-black  Biography">Biography</a>
+            <a class="hover:bg-gray-200 py-3 px-2 text-black  biography">Biography</a>
             
-            <a class="hover:bg-gray-200 py-3 px-2 text-black  Teste">Teste</a>
+            <a class="hover:bg-gray-200 py-3 px-2 text-black  lorem-ipsum-1">Lorem Ipsum 1</a>
             
-            <a class="hover:bg-gray-200 py-3 px-2 text-black  Teste2">Teste2</a>
+            <a class="hover:bg-gray-200 py-3 px-2 text-black  lorem-ipsum-2">Lorem Ipsum 2</a>
             
           </div>
 
@@ -70,13 +70,13 @@
       <div class="mobile-menu hidden" id="mobile-menu">
         
         <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Biography">Biography</a>
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item biography">Biography</a>
         
         <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Teste">Teste</a>
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item lorem-ipsum-1">Lorem Ipsum 1</a>
         
         <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Teste2">Teste2</a>
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item lorem-ipsum-2">Lorem Ipsum 2</a>
         
       </div>
 
@@ -120,7 +120,7 @@
 
   <script src="js/post.js"></script>
   <script>
-    const topicos = [{"title":"Biography"},{"title":"Teste"},{"title":"Teste2"}]
+    const topicos = [{"title":"biography","name":"Biography"},{"title":"lorem-ipsum-1","name":"Lorem Ipsum 1"},{"title":"lorem-ipsum-2","name":"Lorem Ipsum 2"}]
     $(`.logo`).click(function () {
       $('html,body').animate({
         scrollTop: 0
@@ -130,7 +130,8 @@
     topicos.forEach(topico => {
       $(`.${topico.title}`).click(function () {
         $('html,body').animate({
-          scrollTop: $(`h1#${topico.title}`).offset().top
+          //-60 para conseguir ver o titulo ainda
+          scrollTop: $(`h1#${topico.title}`).offset().top - 60
         },
           'slow');
       });
