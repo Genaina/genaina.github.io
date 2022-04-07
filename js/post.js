@@ -1,7 +1,11 @@
-const button = document.querySelector('.mobile-menu-buttom');
+const button = document.querySelector('.mobile-menu-button');
 const menu = document.querySelector('.mobile-menu');
-console.log(button)
+const items = document.querySelectorAll('.mobile-menu-item')
 button.addEventListener('click', ()=>{
-  console.log('teste')
   menu.classList.toggle('hidden');
+})
+items.forEach(item => {
+  item.addEventListener('click', ()=>{
+    menu.classList.toggle('hidden');
+  })
 })
