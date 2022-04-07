@@ -21,6 +21,7 @@
     a{
       @apply text-blue-600;
       @apply hover:underline;
+      @apply cursor-pointer
     }
     h1{
       @apply font-semibold text-2xl;
@@ -36,7 +37,7 @@
 
 <body>
   <div class="flex h-screen flex-col justify-between">
-    <nav class="bg-gray-100 sticky top-0 w-screen mb-3">
+    <nav class="bg-gray-100 fixed w-screen top-0 mb-3">
       <div class="max-w-6xl mx-auto">
         <div class="flex items-center justify-between space-x-4">
           <!-- logo -->
@@ -88,7 +89,7 @@
     shape-outside: square(50%);
   }
 </style>
-<div class="max-w-2xl">
+<div class="max-w-2xl mt-12">
   <!-- perfil -->
   <div class="flex items-center text-center justify-center md:block pic md:float-left md:mx-5 flex-col">
     <div>
