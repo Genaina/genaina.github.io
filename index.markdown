@@ -17,15 +17,15 @@ In 2013, she co-organized the Brazilian Software Engineering Congress (CBSoft) o
 # Publications 
 My publications can be found in one of the following websites
 
-CNPq Lattes: http://lattes.cnpq.br/2966913210268454
+[CNPq Lattes] (http://lattes.cnpq.br/2966913210268454)
 
-DBLP: https://dblp.org/pid/34/64.html
+[DBLP] (https://dblp.org/pid/34/64.html)
 
-Google Scholar: https://scholar.google.com/citations?user=qCUFz5AAAAAJ
+[Google Scholar] (https://scholar.google.com/citations?user=qCUFz5AAAAAJ)
 
-ORCID: https://orcid.org/0000-0003-1661-8131
+[ORCID] (https://orcid.org/0000-0003-1661-8131)
 
-ACM Profile: https://dl.acm.org/profile/81100007103
+[ACM Profile] (https://dl.acm.org/profile/81100007103)
 
 # Research Projects
 
@@ -65,17 +65,19 @@ Master Students
 - Rafael Fazzolino
 - Gabriela Felix Solano
 - Caio Batista de Melo
+- Thiago Peixoto dos Reis
+- Fabio Leal Barros
 - Danilo Filgueira Mendonça
 - Alexandre Vaz Roriz
 
 
 # Artifacts
 
-- PiStar-GODA
+- [PiStar-GODA] (https://github.com/lesunb/pistarGODA-MDP)
 - Rosetta
-- MutRose
-- SA-BSN
-- GoalD
+- [MutRose] (https://github.com/lesunb/MutRoSe-Repository)
+- [SA-BSN] (https://github.com/lesunb/bsn)
+- [GoalD] (https://github.com/lesunb/goald)
 
 
 # Contact
