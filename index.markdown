@@ -4,7 +4,7 @@
 
 layout: home
 ---
-# About
+# Short Bio
 Genaina Rodrigues is a tenure professor in the Department of Computer Science at the University of Brasilia. She received her Ph.D. in Computer Science from University College London (2008) in the Software Engineering group. 
 
 Previously, she obtained her bachelor's degree in Computer Science from the University of Brasília in 1999 and her Master's Degree in Computer Science from Federal University of Pernambuco (2002) in the Distributed Systems group.
