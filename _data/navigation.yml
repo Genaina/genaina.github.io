@@ -1,6 +1,12 @@
 - title: biography
   name: Biography
-- title: lorem-ipsum-1
-  name: Lorem Ipsum 1
-- title: lorem-ipsum-2
-  name: Lorem Ipsum 2
+- title: Publications
+  name: Publications
+- title: Projects
+  name: Projects
+- title: Students
+  name: Students
+- title: Tools
+  name: Tools
+- title: Contact
+  name: Contact
