@@ -17,6 +17,8 @@ In 2013, she co-organized the Brazilian Software Engineering Congress (CBSoft) o
 # Publications 
 My publications can be found in one of the following websites
 
+[<img src= "assets/dblp.png" width="25"/>](https://dblp.org/pid/34/64.html)
+
 ![alt text][dblp][DBLP](https://dblp.org/pid/34/64.html)
 
 [dblp]: assets/dblp.png "DBLP"
