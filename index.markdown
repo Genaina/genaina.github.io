@@ -19,7 +19,7 @@ My publications can be found in one of the following websites
 
 [<img src= "assets/dblp.png" width="50"/>](https://dblp.org/pid/34/64.html)
 
-[<img src= "assets/lattes.png" width="50"/>](http://lattes.cnpq.br/2966913210268454) [(In Portuguese)](http://lattes.cnpq.br/2966913210268454)
+[<img src= "assets/lattes.png" width="50"/>](http://lattes.cnpq.br/2966913210268454)
 
 [<img src= "assets/Gscholar.png" width="50"/>](https://scholar.google.com/citations?user=qCUFz5AAAAAJ)
 
