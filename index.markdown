@@ -81,10 +81,3 @@ These artifacts have been developed as part of research supervisions and publica
 
 ## [<img src= "assets/email.png" width="50"/>](mailto:genaina@unb.br)
 
-## Address:
-Dept. de Ciência da Computação
-Campus Darcy Ribeiro
-Asa Norte
-Edifício CIC/EST
-Brasília - DF - Brasil
-70910-900
