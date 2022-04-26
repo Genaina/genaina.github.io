@@ -17,15 +17,25 @@ In 2013, she co-organized the Brazilian Software Engineering Congress (CBSoft) o
 # Publications 
 My publications can be found in one of the following websites
 
-[DBLP](https://dblp.org/pid/34/64.html)
+![alt text][dblp][DBLP](https://dblp.org/pid/34/64.html)
 
-[CNPq Lattes (CV in Portuguese)](http://lattes.cnpq.br/2966913210268454)
+[dblp]: assets/dblp.png "DBLP"
 
-[Google Scholar](https://scholar.google.com/citations?user=qCUFz5AAAAAJ)
+![alt text][lattes][CNPq Lattes (CV in Portuguese)](http://lattes.cnpq.br/2966913210268454)
 
-[ORCID](https://orcid.org/0000-0003-1661-8131)
+[lattes]: assets/lattes.jpeg "LATTES"
 
-[ACM Profile](https://dl.acm.org/profile/81100007103)
+![alt text][scholar][Google Scholar](https://scholar.google.com/citations?user=qCUFz5AAAAAJ)
+
+[scholar]: assets/scholar.jpeg "SCHOLAR"
+
+![alt text][orcid][ORCID](https://orcid.org/0000-0003-1661-8131)
+
+[orcid]: assets/orcid.jpeg "ORCID"
+
+![alt text][acm][ACM Profile](https://dl.acm.org/profile/81100007103)
+
+[acm]: assets/acm.jpeg "ACM"
 
 # Research Projects
 
