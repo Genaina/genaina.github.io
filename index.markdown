@@ -5,17 +5,11 @@
 layout: home
 ---
 # Short Bio
-Genaina Rodrigues is a tenure professor in the Department of Computer Science at the University of Brasilia. She received her Ph.D. in Computer Science from University College London (2008) in the Software Engineering group. 
-
-Previously, she obtained her bachelor's degree in Computer Science from the University of Brasília in 1999 and her Master's Degree in Computer Science from Federal University of Pernambuco (2002) in the Distributed Systems group.
-
-Her research interests are mostly in Software Systems Engineering including dependability analysis and modeling, self-adaptive systems, goal-oriented requirements engineering, model-driven development for quality requirements, verification of probabilistic models, as well as distributed platforms. 
-
-In 2013, she co-organized the Brazilian Software Engineering Congress (CBSoft) of the Brazilian Computer Society (SBC). Together with her research group LADECIC @ LES, she has engaged national and international cooperations in her topics of research interest and has served highly ranked Computer Science journals as well as conferences.
+Genaina Rodrigues is an associate professor in the [Department of Computer Science](https://cic.unb.br/) at the [University of Brasília](https://unb.br/). She received her Ph.D. in [Computer Science from University College London](https://www.ucl.ac.uk/computer-science/) in 2008. Previously, she obtained her bachelor's degree in Computer Science from the University of Brasília in 1999 and her Master's Degree in [Computer Science from the Federal University of Pernambuco](https://portal.cin.ufpe.br/) in 2002. In 2008, she conducted a postdoctoral research at the [Computer Science Department of the Federal University of Minas Gerais](https://dcc.ufmg.br/).  Her research interests are mostly in Software Systems Engineering including  the mutual collaboration between robotics and software engineering, model checking for design and runtime verification, self-adaptive systems and the interplay with goal-oriented requirements engineering, behavior-driven development and its role in testing. In 2013, she co-organized the Brazilian Software Engineering Congress (CBSoft) of the Brazilian Computer Society (SBC). Together with her research group, LADECIC, she has engaged national and international cooperations in her topics of research interest. In 2020, she was awarded a fellowship as an experienced researcher through [CAPES/Alexander von Humboldt Programme](https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/capes-humboldt-research-fellowship) to conduct research at the Humboldt Universität zu Berlin with [Prof. Lars Grunske](https://www.informatik.hu-berlin.de/de/Members/lars-grunske) and [PhD Thomas Vogel](https://thomas-vogel.github.io/).
 
 
 # Publications 
-My publications can be found in one of the following websites
+My publications can be found in one of the following websites:
 
 [<img src= "assets/dblp.png" width="50"/>](https://dblp.org/pid/34/64.html)
 
@@ -84,3 +78,13 @@ These artifacts have been developed as part of research supervisions and publica
 
 
 # Contact
+
+## [<img src= "assets/email.png" width="50"/>](mailto:genaina@unb.br)genaina[at]unb.[dot]br
+
+## Address:
+Dept. de Ciência da Computação
+Campus Darcy Ribeiro
+Asa Norte
+Edifício CIC/EST
+Brasília - DF - Brasil
+70910-900
