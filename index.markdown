@@ -17,9 +17,9 @@ In 2013, she co-organized the Brazilian Software Engineering Congress (CBSoft) o
 # Publications 
 My publications can be found in one of the following websites
 
-[CNPq Lattes](http://lattes.cnpq.br/2966913210268454)
-
 [DBLP](https://dblp.org/pid/34/64.html)
+
+[CNPq Lattes (CV in Portuguese)](http://lattes.cnpq.br/2966913210268454)
 
 [Google Scholar](https://scholar.google.com/citations?user=qCUFz5AAAAAJ)
 
