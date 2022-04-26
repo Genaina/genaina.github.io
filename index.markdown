@@ -4,7 +4,7 @@
 
 layout: home
 ---
-# Biography
+# About
 Genaina Rodrigues is a tenure professor in the Department of Computer Science at the University of Brasilia. She received her Ph.D. in Computer Science from University College London (2008) in the Software Engineering group. 
 
 Previously, she obtained her bachelor's degree in Computer Science from the University of Brasília in 1999 and her Master's Degree in Computer Science from Federal University of Pernambuco (2002) in the Distributed Systems group.
@@ -40,38 +40,40 @@ This is a FAPESP funded research project conducted in collaboration with UFRGS, 
 
 # Students
 
-Current: 
-PhD Students
-- Gabriel Siqueira Rodrigues
-- Sigfredo Farias Rocha
-- Renato Edésio
-- Arthur José Farias Rodrigues
+## Current: 
+### PhD Students
+* Gabriel Siqueira Rodrigues
+* Sigfredo Farias Rocha
+* Renato Edésio
+* Arthur José Farias Rodrigues
 
 
-Master Students
-- João Paulo Costa de Araújo
-- Danilo José Bispo Galvão
+### Master Students
+* João Paulo Costa de Araújo
+* Danilo José Bispo Galvão
+* Gabriel Frutuoso Araújo Pereira (Moisés) 
 
-Past:
-PhD Students
-- Felipe Pontes Guimarães (co-supervision with Daniel Batista)
-- André Luiz Peron de Martins Lanna (co-supervision with Vander Alves)
+## Past:
+### PhD Students
+* Felipe Pontes Guimarães (co-supervision with Daniel Batista)
+* André Luiz Peron de Martins Lanna (co-supervision with Vander Alves)
 
-
-Master Students
-- Ricardo Diniz Caldas
-- Eric Bernd Gil
-- Marc Carwehl
-- Rafael Fazzolino
-- Gabriela Felix Solano
-- Caio Batista de Melo
-- Thiago Peixoto dos Reis
-- Fabio Leal Barros
-- Danilo Filgueira Mendonça
-- Alexandre Vaz Roriz
+### Master Students
+* Ricardo Diniz Caldas
+* Eric Bernd Gil
+* Marc Carwehl
+* Rafael Fazzolino
+* Gabriela Felix Solano
+* Caio Batista de Melo
+* Thiago Peixoto dos Reis
+* Fabio Leal Barros
+* Danilo Filgueira Mendonça
+* Alexandre Vaz Roriz
 
 
 # Artifacts
+
+These artifacts have been developed as part of research supervisions and publications  
 
 - [PiStar-GODA](https://github.com/lesunb/pistarGODA-MDP)
 - Rosetta
