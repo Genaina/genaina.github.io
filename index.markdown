@@ -19,21 +19,14 @@ My publications can be found in one of the following websites
 
 [<img src= "assets/dblp.png" width="50"/>](https://dblp.org/pid/34/64.html) [DBLP](https://dblp.org/pid/34/64.html)
 
-![alt text][lattes][CNPq Lattes (CV in Portuguese)](http://lattes.cnpq.br/2966913210268454)
+[<img src= "assets/lattes.png" width="50"/>](http://lattes.cnpq.br/2966913210268454) [CNPq Lattes in Portugues](http://lattes.cnpq.br/2966913210268454)
 
-[lattes]: assets/lattes.png "LATTES"
+[<img src= "assets/Gscholar.png" width="50"/>](https://scholar.google.com/citations?user=qCUFz5AAAAAJ) [Google Scholar](https://scholar.google.com/citations?user=qCUFz5AAAAAJ)
 
-![alt text][scholar][Google Scholar](https://scholar.google.com/citations?user=qCUFz5AAAAAJ)
+[<img src= "assets/orcid.png" width="50"/>](https://orcid.org/0000-0003-1661-8131) [ORCID](https://orcid.org/0000-0003-1661-8131)
 
-[scholar]: assets/Gscholar.png "SCHOLAR"
+[<img src= "assets/acm.png" width="50"/>](https://dl.acm.org/profile/81100007103) [ACM Profile](https://dl.acm.org/profile/81100007103)
 
-![alt text][orcid][ORCID](https://orcid.org/0000-0003-1661-8131)
-
-[orcid]: assets/orcid.png "ORCID"
-
-![alt text][acm][ACM Profile](https://dl.acm.org/profile/81100007103)
-
-[acm]: assets/acm.jpeg "ACM"
 
 # Research Projects
 
