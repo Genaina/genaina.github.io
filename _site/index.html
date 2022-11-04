@@ -30,8 +30,12 @@
     p{
       @apply space-y-4;
     }
+    ul{
+      padding-left: 1em;
+      @apply list-disc;
+    }
   </style>
-  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="/css/base.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
@@ -41,18 +45,39 @@
       <div class="max-w-6xl mx-auto">
         <div class="flex items-center justify-between space-x-4">
           <!-- logo -->
-          <span class="font-light text-2xl text-black ml-3 logo font-source hover:underline">
-            Genaína Nunes Rodrigues
-          </span>
-
+          
+            <span class="font-light text-2xl text-black ml-3 logo font-source hover:underline">
+              Genaína Nunes Rodrigues
+            </span>
+          
           <!-- primary nav -->
           <div class="md:flex items-center space-x-1 hidden">
             
-            <a class="hover:bg-gray-200 py-3 px-2 text-black  biography">Biography</a>
-            
-            <a class="hover:bg-gray-200 py-3 px-2 text-black  lorem-ipsum-1">Lorem Ipsum 1</a>
-            
-            <a class="hover:bg-gray-200 py-3 px-2 text-black  lorem-ipsum-2">Lorem Ipsum 2</a>
+              
+                
+                  <a class="hover:bg-gray-200 py-3 px-2 text-black Short Bio">Short Bio</a>
+                
+              
+                
+                  <a class="hover:bg-gray-200 py-3 px-2 text-black Publications">Publications</a>
+                
+              
+                
+                  <a class="hover:bg-gray-200 py-3 px-2 text-black Research Projects">Research Projects</a>
+                
+              
+                
+                  <a class="hover:bg-gray-200 py-3 px-2 text-black Students">Students</a>
+                
+              
+                
+                  <a class="hover:bg-gray-200 py-3 px-2 text-black Artifacts" href="/artifacts/">Artifacts</a>
+                
+              
+                
+                  <a class="hover:bg-gray-200 py-3 px-2 text-black Contact">Contact</a>
+                
+              
             
           </div>
 
@@ -71,13 +96,22 @@
       <div class="mobile-menu hidden" id="mobile-menu">
         
         <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item biography">Biography</a>
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Short Bio">Short Bio</a>
         
         <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item lorem-ipsum-1">Lorem Ipsum 1</a>
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Publications">Publications</a>
         
         <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item lorem-ipsum-2">Lorem Ipsum 2</a>
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Research Projects">Research Projects</a>
+        
+        <a
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Students">Students</a>
+        
+        <a
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Artifacts">Artifacts</a>
+        
+        <a
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Contact">Contact</a>
         
       </div>
 
@@ -95,28 +129,92 @@
     <div>
       <img src="assets/Gena.jpeg" id="logo" class="w-60 md:w-64 md rounded-full mt-10 md:rounded-lg" alt="Me" />
     </div>
-    <span class="font-thin text-sm mt-2">Genaína Nunes Rodrigues</span>
+    <span class="font-thin text-sm mt-2">Genaina Nunes</span>
   </div>
   <!-- conteudo -->
   <div class=" text-md mt-10 px-4 mb-5 font-source space-y-4">
-    <h1 id="biography">Biography</h1>
-<p>Genaina Rodrigues is a tenure professor in the Department of Computer Science at the University of Brasilia. She received her Ph.D. in Computer Science from University College London (2008) in the Software Engineering group.</p>
+    <h1 id="short-bio">Short Bio</h1>
+<p>Genaina Rodrigues is an associate professor in the <a href="https://cic.unb.br/">Department of Computer Science</a> at the <a href="https://unb.br/">University of Brasília</a>. She received her Ph.D. in <a href="https://www.ucl.ac.uk/computer-science/">Computer Science from University College London</a> in 2008. Previously, she obtained her bachelor’s degree in Computer Science from the University of Brasília in 1999 and her Master’s Degree in <a href="https://portal.cin.ufpe.br/">Computer Science from the Federal University of Pernambuco</a> in 2002. In 2008, she conducted a postdoctoral research in the <a href="https://dcc.ufmg.br/">Computer Science Department at the Federal University of Minas Gerais</a>.  Her research interests are mostly in Software Systems Engineering including  the mutual collaboration between robotics and software engineering, model checking for design and runtime verification, self-adaptive systems and the interplay with goal-oriented requirements engineering, behavior-driven development and its role in testing. In 2013, she co-organized the Brazilian Software Engineering Congress (CBSoft) of the Brazilian Computer Society (SBC). In 2020, she was awarded a fellowship as an experienced researcher through <a href="https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/capes-humboldt-research-fellowship">CAPES/Alexander von Humboldt Programme</a> to conduct research at the Humboldt Universität zu Berlin with <a href="https://www.informatik.hu-berlin.de/de/Members/lars-grunske">Prof. Lars Grunske</a> and <a href="https://thomas-vogel.github.io/">PhD Thomas Vogel</a>.</p>
 
-<p>Previously, she obtained her bachelor’s degree in Computer Science from the University of Brasília in 1999 and her Master’s Degree in Computer Science from Federal University of Pernambuco (2002) in the Distributed Systems group.</p>
+<h1 id="publications">Publications</h1>
+<p>My publications can be found in one of the following websites:</p>
+<div class="grid grid-cols-2 gap-1 content-center">
+<div class="flex justify-center"><a href="https://dblp.org/pid/34/64.html"><img src="assets/dblp.png" width="50" /></a></div>
 
-<p>Her research interests are mostly in Software Systems Engineering including dependability analysis and modeling, self-adaptive systems, goal-oriented requirements engineering, model-driven development for quality requirements, verification of probabilistic models, as well as distributed platforms.</p>
+<div class="flex justify-center"><a href="http://lattes.cnpq.br/2966913210268454"><img src="assets/lattes.png" width="50" /></a></div>
 
-<p>In 2013, she co-organized the Brazilian Software Engineering Congress (CBSoft) of the Brazilian Computer Society (SBC). Together with her research group LADECIC @ LES, she has engaged national and international cooperations in her topics of research interest and has served highly ranked Computer Science journals as well as conferences.</p>
+<div class="flex justify-center"><a href="https://scholar.google.com/citations?user=qCUFz5AAAAAJ"><img src="assets/Gscholar.png" width="50" /></a></div>
 
-<h1 id="lorem-ipsum-1">Lorem Ipsum 1</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a diam lectus. Morbi eu tempus augue. Aliquam ipsum est, cursus at porttitor nec, sollicitudin sit amet lacus. In euismod ligula nisl, a mattis risus bibendum ut. Sed semper magna dui, sit amet sodales libero ornare cursus. Mauris nec gravida quam, eget laoreet augue. Phasellus efficitur dui at facilisis luctus. Integer semper turpis vulputate sapien rhoncus ultrices.</p>
+<div class="flex justify-center"><a href="https://orcid.org/0000-0003-1661-8131"><img src="assets/orcid2.png" width="100" /></a></div>
 
-<p>Sed gravida purus quis purus eleifend tristique. Maecenas vel porttitor ipsum. Cras efficitur ante et justo convallis, at mattis erat finibus. Nam tincidunt enim odio, non dictum lacus finibus nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dapibus eros mi, ac rhoncus elit aliquam ut. Suspendisse id leo pellentesque, consequat lorem sit amet, dictum enim. Pellentesque ac nibh facilisis, iaculis dolor vitae, sodales eros. Nunc nec luctus tortor.</p>
+<div class="flex justify-center col-span-2"><a href="https://cdn.freebiesupply.com/images/large/2x/association-for-computing-machinery-logo-png-transparent.png"><img src="assets/acm.jpeg" width="50" /></a></div>
+</div>
+<h1 id="research-projects">Research Projects</h1>
 
-<h1 id="lorem-ipsum-2">Lorem Ipsum 2</h1>
-<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus lacinia nisi eu vulputate sodales. Mauris sollicitudin ligula sed ligula iaculis pellentesque. Duis ut erat at sem semper maximus. Proin placerat eu justo vitae suscipit. Vestibulum nisi augue, dignissim et egestas vel, eleifend a purus. Nullam fermentum venenatis feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sollicitudin tempor ex, a venenatis neque cursus a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis auctor orci in arcu sollicitudin, vitae bibendum tellus bibendum. In convallis nulla metus. Aliquam a tellus lacus. Aliquam pulvinar porta nibh et condimentum. Mauris magna ipsum, maximus id cursus fermentum, finibus interdum magna.</p>
+<h2 id="trustworthy-runtime-guarantees-for-self-adaptive-software-systems-in-the-presence-of-uncertainties">Trustworthy Runtime Guarantees for Self-Adaptive Software Systems in the Presence of Uncertainties</h2>
+<p>This a CAPES/Alexander von Humboldt funded research project conducted in collaboration with the Software Engineering group at the Humboldt Universität zu Berlin aiming at investigating techniques, methodologies and processes capable of providing design- and run-time assurances for self-adaptive systems in the presence of structural and environmental sources of uncertainties.</p>
 
-<p>Nullam ut orci ut tortor consequat pulvinar in at arcu. Curabitur facilisis risus sed nunc dapibus, nec auctor enim finibus. Duis sapien quam, tincidunt quis ultricies in, cursus a tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam pellentesque dui sit amet purus hendrerit, sed faucibus turpis hendrerit. Proin sit amet iaculis dolor, sit amet scelerisque nisi. Curabitur placerat nisi vitae consequat tincidunt. Nulla turpis ipsum,</p>
+<h2 id="fostering-the-engineering-of-adaptive-robotic-missions">Fostering the Engineering of Adaptive Robotic Missions</h2>
+<p>This a FAPDF funded research project conducted in collaboration with Prof. Patrizio Pelliccione from GSSI in L’Aquila, Italy and Prof. Radu Calinescu from University of York, UK. This project proposes to foster the engineering of missions of robotic applications through systematic software engineer approaches. At design time, the proposed project will provide a modelling framework that allows the end-user specify robotic missions that cope with the variability of conditions of application scenarios in real environments. At runtime, the proposal will provide an adaptive software architecture for robotic missions to increase the autonomy level of robotic missions operating in uncertain environments. The expected outcome of this project is threefold: (i) promote scientific innovation by incrementing the state-of-the-art of the engineering of autonomous robotic missions through systematic software engineer approaches; (ii) promote technologic innovation by implementing frameworks for specifying, verifying and executing robotic missions to be applied in various case studies and (iii) foster research collaboration between our research group and international academic centres of excellence.</p>
+
+<h2 id="profissa---programmable-future-internet-for-secure-software-architectures">PROFISSA - Programmable Future Internet for Secure Software Architectures</h2>
+<p>This is a FAPESP funded research project conducted in collaboration with UFRGS, UFABC and RNP. This project is proposed to investigate, map and advance the use of software engineering techniques when applied to programmable networks in order to improve the structural, functional and process quality of network programs. Moreover, the network programs developed in the project will be executed in real environments of programmable networks implemented on a testbed for development and analysis of software defined networks (SDN). Therefore, the integration between RNP and the FABRIC project is sought to create real state-of-the-art programmable network environments, taking into account, for example, the use of programmability in the data plane with the use of devices that support P4 interfaces.</p>
+
+<h1 id="students">Students</h1>
+
+<h2 id="current">Current:</h2>
+<h3 id="phd-students">PhD Students</h3>
+<ul>
+  <li>Gabriel Siqueira Rodrigues</li>
+  <li>Sigfredo Farias Rocha</li>
+  <li>Renato Edésio</li>
+  <li>Arthur José Farias Rodrigues</li>
+</ul>
+
+<h3 id="master-students">Master Students</h3>
+<ul>
+  <li>João Paulo Costa de Araújo</li>
+  <li>Danilo José Bispo Galvão</li>
+  <li>Gabriel Frutuoso Araújo Pereira (Moisés)</li>
+</ul>
+
+<h2 id="past">Past:</h2>
+<h3 id="phd-students-1">PhD Students</h3>
+<ul>
+  <li>Felipe Pontes Guimarães (co-supervision with Daniel Batista)</li>
+  <li>André Luiz Peron de Martins Lanna (co-supervision with Vander Alves)</li>
+</ul>
+
+<h3 id="master-students-1">Master Students</h3>
+<ul>
+  <li>Ricardo Diniz Caldas</li>
+  <li>Eric Bernd Gil</li>
+  <li>Marc Carwehl</li>
+  <li>Rafael Fazzolino</li>
+  <li>Gabriela Felix Solano</li>
+  <li>Caio Batista de Melo</li>
+  <li>Thiago Peixoto dos Reis</li>
+  <li>Fabio Leal Barros</li>
+  <li>Danilo Filgueira Mendonça</li>
+  <li>Alexandre Vaz Roriz</li>
+</ul>
+
+<h1 id="artifacts">Artifacts</h1>
+
+<p>These artifacts have been developed as part of research supervisions and publications</p>
+
+<ul>
+  <li><a href="https://github.com/lesunb/pistarGODA-MDP">PiStar-GODA</a></li>
+  <li>Rosetta</li>
+  <li><a href="https://github.com/lesunb/MutRoSe-Repository">MutRose</a></li>
+  <li><a href="https://github.com/lesunb/bsn">SA-BSN</a></li>
+  <li><a href="https://github.com/lesunb/goald">GoalD</a></li>
+</ul>
+
+<h1 id="contact">Contact</h1>
+
+<h2><a href="mailto:genaina@unb.br"><img src="assets/email.png" width="50" /></a></h2>
+
 
   </div>
 </div>
@@ -140,9 +238,9 @@
     </footer>
   </div>
 
-  <script src="js/post.js"></script>
+  <script src="/js/post.js"></script>
   <script>
-    const topicos = [{"title":"biography","name":"Biography"},{"title":"lorem-ipsum-1","name":"Lorem Ipsum 1"},{"title":"lorem-ipsum-2","name":"Lorem Ipsum 2"}]
+    const topicos = [{"title":"Short Bio","name":"Short Bio"},{"title":"Publications","name":"Publications"},{"title":"Research Projects","name":"Research Projects"},{"title":"Students","name":"Students"},{"title":"Artifacts","name":"Artifacts","page":true,"link":"artifacts"},{"title":"Contact","name":"Contact"}]
     $(`.logo`).click(function () {
       $('html,body').animate({
         scrollTop: 0
@@ -150,10 +248,10 @@
         'slow');
     });
     topicos.forEach(topico => {
-      $(`.${topico.title}`).click(function () {
+      $(`.${topico.title.toLowerCase().replace(' ','.')}`).click(function () {
         $('html,body').animate({
           //-60 para conseguir ver o titulo ainda
-          scrollTop: $(`h1#${topico.title}`).offset().top - 60
+          scrollTop: $(`h1#${topico.title.toLowerCase().replace(' ','-')}`).offset().top - 60
         },
           'slow');
       });

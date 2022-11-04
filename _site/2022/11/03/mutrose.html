@@ -30,8 +30,12 @@
     p{
       @apply space-y-4;
     }
+    ul{
+      padding-left: 1em;
+      @apply list-disc;
+    }
   </style>
-  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="/css/base.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
@@ -41,18 +45,16 @@
       <div class="max-w-6xl mx-auto">
         <div class="flex items-center justify-between space-x-4">
           <!-- logo -->
-          <span class="font-light text-2xl text-black ml-3 logo font-source hover:underline">
-            Genaína Nunes Rodrigues
-          </span>
-
+          
+            <a class="font-light text-2xl text-black ml-3 logo font-source hover:underline" href="/">
+              Genaína Nunes Rodrigues
+            </a>
+          
           <!-- primary nav -->
           <div class="md:flex items-center space-x-1 hidden">
             
-            <a class="hover:bg-gray-200 py-3 px-2 text-black  biography">Biography</a>
-            
-            <a class="hover:bg-gray-200 py-3 px-2 text-black  lorem-ipsum-1">Lorem Ipsum 1</a>
-            
-            <a class="hover:bg-gray-200 py-3 px-2 text-black  lorem-ipsum-2">Lorem Ipsum 2</a>
+              <a class="hover:bg-gray-200 py-3 px-2 text-black home" href="/">Home</a>
+              <a class="bg-gray-500 py-3 px-2 text-white MutRose" href="//">MutRose</a>
             
           </div>
 
@@ -71,39 +73,41 @@
       <div class="mobile-menu hidden" id="mobile-menu">
         
         <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item biography">Biography</a>
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Short Bio">Short Bio</a>
         
         <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item lorem-ipsum-1">Lorem Ipsum 1</a>
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Publications">Publications</a>
         
         <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item lorem-ipsum-2">Lorem Ipsum 2</a>
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Research Projects">Research Projects</a>
+        
+        <a
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Students">Students</a>
+        
+        <a
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Artifacts">Artifacts</a>
+        
+        <a
+          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Contact">Contact</a>
         
       </div>
 
     </nav>
 
     <div class=" flex items-center justify-center mb-6">
-      <article class="post">
+      <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title p-name" itemprop="name headline">MutRose</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2022-11-03T00:00:00-03:00" itemprop="datePublished">Nov 3, 2022
+      </time></p>
   </header>
 
-  <div class="post-content">
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
+  <div class="post-content e-content" itemprop="articleBody">
+    
 
-<p>You can find the source code for Minima at GitHub:<br />
-<a href="https://github.com/jekyll">jekyll</a> /<br />
-<a href="https://github.com/jekyll/minima">minima</a></p>
-
-<p>You can find the source code for Jekyll at GitHub:<br />
-<a href="https://github.com/jekyll">jekyll</a> /<br />
-<a href="https://github.com/jekyll/jekyll">jekyll</a></p>
-
-
-  </div>
-
+  </div><a class="u-url" href="/2022/11/03/mutrose.html" hidden></a>
 </article>
 
     </div>
@@ -126,9 +130,9 @@
     </footer>
   </div>
 
-  <script src="js/post.js"></script>
+  <script src="/js/post.js"></script>
   <script>
-    const topicos = [{"title":"biography","name":"Biography"},{"title":"lorem-ipsum-1","name":"Lorem Ipsum 1"},{"title":"lorem-ipsum-2","name":"Lorem Ipsum 2"}]
+    const topicos = [{"title":"Short Bio","name":"Short Bio"},{"title":"Publications","name":"Publications"},{"title":"Research Projects","name":"Research Projects"},{"title":"Students","name":"Students"},{"title":"Artifacts","name":"Artifacts","page":true,"link":"artifacts"},{"title":"Contact","name":"Contact"}]
     $(`.logo`).click(function () {
       $('html,body').animate({
         scrollTop: 0
@@ -136,10 +140,10 @@
         'slow');
     });
     topicos.forEach(topico => {
-      $(`.${topico.title}`).click(function () {
+      $(`.${topico.title.toLowerCase().replace(' ','.')}`).click(function () {
         $('html,body').animate({
           //-60 para conseguir ver o titulo ainda
-          scrollTop: $(`h1#${topico.title}`).offset().top - 60
+          scrollTop: $(`h1#${topico.title.toLowerCase().replace(' ','-')}`).offset().top - 60
         },
           'slow');
       });
