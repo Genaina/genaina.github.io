@@ -23,7 +23,7 @@ name: Genaína Nunes Rodrigues
 email: genaina@unb.br
 phoneNumber: "+55-61-3107-3682"
 description: >- # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/genaina.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
