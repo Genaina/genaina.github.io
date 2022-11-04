@@ -64,18 +64,6 @@ This is a FAPESP funded research project conducted in collaboration with UFRGS, 
 * Danilo Filgueira Mendonça
 * Alexandre Vaz Roriz
 
-
-# Artifacts
-
-These artifacts have been developed as part of research supervisions and publications  
-
-- [PiStar-GODA](https://github.com/lesunb/pistarGODA-MDP)
-- Rosetta
-- [MutRose](https://github.com/lesunb/MutRoSe-Repository)
-- [SA-BSN](https://github.com/lesunb/bsn)
-- [GoalD](https://github.com/lesunb/goald)
-
-
 # Contact
 
 ## [<img src= "assets/email.png" width="50"/>](mailto:genaina@unb.br)
