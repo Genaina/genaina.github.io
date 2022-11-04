@@ -1,5 +1,6 @@
 ---
 layout: post
+type: artifact
 title:  "MutRose"
 link: https://github.com/lesunb/MutRoSe-Repository
 image: https://htmlcolorcodes.com/assets/images/colors/gray-color-solid-background-1920x1080.png

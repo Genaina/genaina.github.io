@@ -41,12 +41,12 @@
 
 <body>
   <div class="flex h-screen flex-col justify-between">
-    <nav class="bg-gray-100 fixed w-screen top-0 mb-3">
+    <nav class="bg-gray-100 fixed w-screen top-0 mb-3 z-40">
       <div class="max-w-6xl mx-auto">
         <div class="flex items-center justify-between space-x-4">
           <!-- logo -->
           
-            <span class="font-light text-2xl text-black ml-3 logo font-source hover:underline">
+            <span class="cursor-pointer font-light text-2xl text-black ml-3 logo font-source">
               Genaína Nunes Rodrigues
             </span>
           
@@ -55,27 +55,27 @@
             
               
                 
-                  <a class="hover:bg-gray-200 py-3 px-2 text-black Short Bio">Short Bio</a>
+                  <a class="hover:bg-gray-200 hover:no-underline py-3 px-2 text-black Short Bio">Short Bio</a>
                 
               
                 
-                  <a class="hover:bg-gray-200 py-3 px-2 text-black Publications">Publications</a>
+                  <a class="hover:bg-gray-200 hover:no-underline py-3 px-2 text-black Publications">Publications</a>
                 
               
                 
-                  <a class="hover:bg-gray-200 py-3 px-2 text-black Research Projects">Research Projects</a>
+                  <a class="hover:bg-gray-200 hover:no-underline py-3 px-2 text-black Research Projects">Research Projects</a>
                 
               
                 
-                  <a class="hover:bg-gray-200 py-3 px-2 text-black Students">Students</a>
+                  <a class="hover:bg-gray-200 hover:no-underline py-3 px-2 text-black Students">Students</a>
                 
               
                 
-                  <a class="hover:bg-gray-200 py-3 px-2 text-black Artifacts" href="/artifacts/">Artifacts</a>
+                  <a class="hover:bg-gray-200 hover:no-underline py-3 px-2 text-black Artifacts" href="/artifacts/">Artifacts</a>
                 
               
                 
-                  <a class="hover:bg-gray-200 py-3 px-2 text-black Contact">Contact</a>
+                  <a class="hover:bg-gray-200 hover:no-underline py-3 px-2 text-black Contact">Contact</a>
                 
               
             
@@ -91,27 +91,35 @@
             </button>
           </div>
         </div>
-        <!-- menu do mobile -->
       </div>
-      <div class="mobile-menu hidden" id="mobile-menu">
+      <!-- menu do mobile -->
+      <div class="mobile-menu hidden sm:hidden" id="mobile-menu">
         
-        <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Short Bio">Short Bio</a>
-        
-        <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Publications">Publications</a>
-        
-        <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Research Projects">Research Projects</a>
-        
-        <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Students">Students</a>
-        
-        <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Artifacts">Artifacts</a>
-        
-        <a
-          class="block hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Contact">Contact</a>
+          
+            
+              <a class="block hover:no-underline hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Short Bio">Short Bio</a>
+            
+          
+            
+              <a class="block hover:no-underline hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Publications">Publications</a>
+            
+          
+            
+              <a class="block hover:no-underline hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Research Projects">Research Projects</a>
+            
+          
+            
+              <a class="block hover:no-underline hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Students">Students</a>
+            
+          
+            
+              <a class="block hover:no-underline hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Artifacts" href="/artifacts/">Artifacts</a>
+            
+          
+            
+              <a class="block hover:no-underline hover:bg-gray-200 py-1 px-3 text-black border-t border-gray-400 mobile-menu-item Contact">Contact</a>
+            
+          
         
       </div>
 
@@ -208,11 +216,11 @@
 </div>
     </div>
 
-    <footer class="flex items-center justify-center bg-gray-100 p-5 text-gray-500">
+    <footer class="flex items-center justify-center bg-gray-100 p-5 text-gray-500 z-40">
       <div class="max-w-2xl grid grid-cols-2 gap-x-52">
         <div>
           <h3 class="font-normal">Address</h3>
-          <p class="font-thin text-sm">
+          <p class="font-thin text-sm z-0">
              Dept. de Ciência da Computação</br> Campus Darcy Ribeiro</br> Asa Norte</br> Edifício CIC/EST</br> Brasília - DF - Brasil</br> 70910-900</br> 
           </p>
         </div>

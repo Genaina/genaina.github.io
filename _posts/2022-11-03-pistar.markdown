@@ -1,5 +1,6 @@
 ---
 layout: post
+type: artifact
 title:  "PiStar-GODA"
 link: https://github.com/lesunb/pistarGODA-MDP
 image: https://htmlcolorcodes.com/assets/images/colors/gray-color-solid-background-1920x1080.png
