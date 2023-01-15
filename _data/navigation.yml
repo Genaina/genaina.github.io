@@ -8,7 +8,6 @@
   name: Students
 - title: Artifacts
   name: Artifacts
-  page: true
   link: artifacts
 - title: Contact
   name: Contact
