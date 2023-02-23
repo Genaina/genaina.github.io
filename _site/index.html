@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+  <script src="/assets/jquery.min.js"></script>
+  <link
+    rel="stylesheet"
+    href="/assets/index.min.css" />
+  <script src="/assets/3.2.4.js"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -105,7 +107,13 @@
 
           <!-- botao do mobile -->
           <div class="flex md:hidden py-4 px-4">
-            <button class="mobile-menu-button" id="mobile-menu-button"  data-bs-toggle="collapse" data-bs-target="#mobile-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <button class="mobile-menu-button" 
+              id="mobile-menu-button"
+              data-te-collapse-init
+              data-te-ripple-init
+              data-te-target="#mobile-menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu">
               <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
@@ -115,7 +123,7 @@
         </div>
       </div>
       <!-- menu do mobile -->
-      <div class="collapse md:hidden " id="mobile-menu">
+      <div class="!visible hidden " id="mobile-menu" >
         
           
             
@@ -195,10 +203,17 @@
     
     
       
-      <h1 class="cursor-pointer collapsable hover:bg-gray-300" type="button" data-bs-toggle="collapse" data-bs-target="#pub" aria-expanded="false" aria-controls="pub">
+      <h1 id="pub" class="cursor-pointer collapsable hover:bg-gray-300"
+        type="button"
+        data-te-collapse-init
+        data-te-ripple-init
+        data-te-ripple-color="light"
+        data-te-target="#p-pub"
+        aria-expanded="false"
+        aria-controls="p-pub">
         Publications <icon class="fa-regular fa-plus"></icon>
       </h1>
-      <div class="collapse" id="pub">
+      <div class="!visible hidden" data-te-collapse-item id="p-pub">
         <p>My publications can be found in one of the following websites:</p>
 <div class="grid grid-cols-2 gap-1 content-center">
 <div class="flex justify-center"><a href="https://dblp.org/pid/34/64.html"><img src="assets/dblp.png" width="50" /></a></div>
@@ -216,10 +231,17 @@
       
     
       
-      <h1 class="cursor-pointer collapsable hover:bg-gray-300" type="button" data-bs-toggle="collapse" data-bs-target="#research" aria-expanded="false" aria-controls="research">
+      <h1 id="research" class="cursor-pointer collapsable hover:bg-gray-300"
+        type="button"
+        data-te-collapse-init
+        data-te-ripple-init
+        data-te-ripple-color="light"
+        data-te-target="#p-research"
+        aria-expanded="false"
+        aria-controls="p-research">
         Research Projects <icon class="fa-regular fa-plus"></icon>
       </h1>
-      <div class="collapse" id="research">
+      <div class="!visible hidden" data-te-collapse-item id="p-research">
         
 <h3 id="trustworthy-runtime-guarantees-for-self-adaptive-software-systems-in-the-presence-of-uncertainties">Trustworthy Runtime Guarantees for Self-Adaptive Software Systems in the Presence of Uncertainties</h3>
 <p>This a CAPES/Alexander von Humboldt funded research project conducted in collaboration with the Software Engineering group at the Humboldt Universität zu Berlin aiming at investigating techniques, methodologies and processes capable of providing design- and run-time assurances for self-adaptive systems in the presence of structural and environmental sources of uncertainties.</p>
@@ -234,10 +256,17 @@
       
     
       
-      <h1 class="cursor-pointer collapsable hover:bg-gray-300" type="button" data-bs-toggle="collapse" data-bs-target="#student" aria-expanded="false" aria-controls="student">
+      <h1 id="student" class="cursor-pointer collapsable hover:bg-gray-300"
+        type="button"
+        data-te-collapse-init
+        data-te-ripple-init
+        data-te-ripple-color="light"
+        data-te-target="#p-student"
+        aria-expanded="false"
+        aria-controls="p-student">
         Students <icon class="fa-regular fa-plus"></icon>
       </h1>
-      <div class="collapse" id="student">
+      <div class="!visible hidden" data-te-collapse-item id="p-student">
         
 <h2 id="current">Current</h2>
 
@@ -325,10 +354,17 @@
       
     
       
-      <h1 class="cursor-pointer collapsable hover:bg-gray-300" type="button" data-bs-toggle="collapse" data-bs-target="#artifacts" aria-expanded="false" aria-controls="artifacts">
+      <h1 id="artifacts" class="cursor-pointer collapsable hover:bg-gray-300"
+        type="button"
+        data-te-collapse-init
+        data-te-ripple-init
+        data-te-ripple-color="light"
+        data-te-target="#p-artifacts"
+        aria-expanded="false"
+        aria-controls="p-artifacts">
         Artifacts <icon class="fa-regular fa-plus"></icon>
       </h1>
-      <div class="collapse" id="artifacts">
+      <div class="!visible hidden" data-te-collapse-item id="p-artifacts">
         
 <ul>
   <li>
@@ -415,14 +451,14 @@
         $(`.${topico.id.toLowerCase().replace(' ','.')}`).click(function () {
           $('html,body').animate({
             //-60 para conseguir ver o titulo ainda
-            scrollTop: $(`#${topico.id.toLowerCase().replace(' ','-')}`).offset().top - 110
+            scrollTop: $(`#${topico.id.toLowerCase().replace(' ','-')}`).offset().top - 50
           },
           'slow');
         });
       }
     })
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+  <script src="/assets/index.min.js"></script>
 </body>
 
 </html>
