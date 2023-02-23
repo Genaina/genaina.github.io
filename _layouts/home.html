@@ -23,10 +23,17 @@ layout: default
     {% endfor %}
     {% for page in site.pages %}
       {% if page.layout == "categoria" %}
-      <h1 class="cursor-pointer collapsable hover:bg-gray-300" type="button" data-bs-toggle="collapse" data-bs-target="#{{page.id}}" aria-expanded="false" aria-controls="{{page.id}}">
+      <h1 id="{{page.id}}" class="cursor-pointer collapsable hover:bg-gray-300"
+        type="button"
+        data-te-collapse-init
+        data-te-ripple-init
+        data-te-ripple-color="light"
+        data-te-target="#p-{{page.id}}"
+        aria-expanded="false"
+        aria-controls="p-{{page.id}}">
         {{page.title}} <icon class="fa-regular fa-plus"></icon>
       </h1>
-      <div class="collapse" id="{{page.id}}">
+      <div class="!visible hidden" data-te-collapse-item id="p-{{page.id}}">
         {{page.content}}
       </div>
       {%endif%}
