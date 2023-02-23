@@ -17,5 +17,5 @@ My publications can be found in one of the following websites:
 
 <div class="flex justify-center"><a href="https://orcid.org/0000-0003-1661-8131"><img src= "assets/orcid2.png" width="100"/></a></div>
 
-<div class='flex justify-center col-span-2'><a href="https://cdn.freebiesupply.com/images/large/2x/association-for-computing-machinery-logo-png-transparent.png"><img src= "assets/acm.jpeg" width="50"/></a></div>
+<div class='flex justify-center col-span-2'><a href="https://dl.acm.org/profile/81100007103"><img src= "assets/acm.jpeg" width="50"/></a></div>
 </div>
